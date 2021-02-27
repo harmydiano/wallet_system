@@ -24,5 +24,7 @@ The three user types (admin, noob, elite) can be created via the signup.
 
 Please note, the database is a fresh setup with empty records.
 
+BASE_URL = http://192.199.22.107/api/v1
+
 https://documenter.getpostman.com/view/4900546/TWDXpd1n#e6783393-e58e-4d52-8e9f-3e3c48ec2c4b
 
