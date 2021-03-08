@@ -6,6 +6,8 @@ web:
   volumes:
     - .:/app
   links:
-    - db
-db:
+    - mongodb
+mongodb:
   image: mongo:3.0.2
+  expose:
+    - 27017
